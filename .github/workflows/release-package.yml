@@ -27,6 +27,6 @@ jobs:
 
       - name: Publish package
         run: |
-          npm publish
+          npm publish ./dist
         env:
           NODE_AUTH_TOKEN: ${{ secrets.TOKEN_PKG }}
