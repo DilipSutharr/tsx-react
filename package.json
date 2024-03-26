@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && mkdir -p dist && cp src/*.d.ts dist && vite build",
+    "build": "tsc && vite build && mkdir -p dist && cp src/*.d.ts dist",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
